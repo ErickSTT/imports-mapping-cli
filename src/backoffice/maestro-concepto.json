@@ -1,0 +1,58 @@
+{
+	"Nombre": {
+		"name": "Nombre",
+		"regex": null,
+		"depend": null,
+		"mandatory": true,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Codigo": {
+		"name": "Codigo",
+		"regex": null,
+		"depend": null,
+		"mandatory": true,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Formato": {
+		"name": "Formato",
+		"regex": null,
+		"depend": null,
+		"mandatory": false,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Tipo De Concepto": {
+		"name": "Tipo De Concepto",
+		"regex": null,
+		"depend": null,
+		"mandatory": false,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Categoria De Concepto": {
+		"name": "Categoria De Concepto",
+		"regex": null,
+		"depend": null,
+		"mandatory": false,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Concepto Estandar": {
+		"name": "Concepto Estandar",
+		"regex": "^[tTFf]$",
+		"depend": null,
+		"mandatory": false,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Pais": {
+		"name": "Pais",
+		"regex": "^[0-9]+$",
+		"depend": null,
+		"mandatory": false,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	}
+}

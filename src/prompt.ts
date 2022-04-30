@@ -12,6 +12,7 @@ export class Prompt {
 	private keys!: IImportsMappings | null
 
 	async HomePrompt() {
+		console.clear()
 		const resp = await inquirer.prompt({
 			name: 'action',
 			type: 'list',

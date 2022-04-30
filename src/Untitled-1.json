@@ -1,0 +1,222 @@
+{
+	"Nomina": {
+		"id": null,
+		"name": "Nomina",
+		"table": null,
+		"regex": "^[0-9]+$",
+		"depend": null,
+		"mandatory": true,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Empleado": {
+		"id": null,
+		"name": "Empleado",
+		"table": null,
+		"regex": "^[0-9]+$",
+		"depend": null,
+		"mandatory": true,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Banco": {
+		"id": null,
+		"name": "Banco",
+		"table": null,
+		"regex": "^[0-9]+$",
+		"depend": null,
+		"mandatory": true,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Pais": {
+		"id": null,
+		"name": "Pais",
+		"table": null,
+		"regex": "^[0-9]+$",
+		"depend": null,
+		"mandatory": true,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Tipo De Cuenta": {
+		"id": null,
+		"name": "Tipo De Cuenta",
+		"table": null,
+		"regex": "^[0-9]+$",
+		"depend": null,
+		"mandatory": true,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Numero De Cuenta": {
+		"id": null,
+		"name": "Numero De Cuenta",
+		"table": null,
+		"regex": "^[0-9]+$",
+		"depend": null,
+		"mandatory": true,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Moneda Cuenta": {
+		"id": null,
+		"name": "Moneda Cuenta",
+		"table": null,
+		"regex": "^[0-9]+$",
+		"depend": null,
+		"mandatory": true,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Tipo De Pago": {
+		"id": null,
+		"name": "Tipo De Pago",
+		"table": null,
+		"regex": "^[0-9]+$",
+		"depend": null,
+		"mandatory": true,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Cuenta Activa": {
+		"id": null,
+		"name": "Cuenta Activa",
+		"table": null,
+		"regex": null,
+		"depend": null,
+		"mandatory": true,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Porcentaje": {
+		"id": null,
+		"name": "Porcentaje",
+		"table": null,
+		"regex": "^[0-9]+$",
+		"depend": null,
+		"mandatory": true,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Fecha": {
+		"id": null,
+		"name": "Fecha",
+		"table": null,
+		"regex": "^(3[01]|[12][0-9]|0[1-9]|[1-9])\\/(1[0-2]|0[1-9])\\/[0-9]{4}$",
+		"depend": null,
+		"mandatory": false,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Beneficiario Cuenta": {
+		"id": null,
+		"name": "Beneficiario Cuenta",
+		"table": null,
+		"regex": null,
+		"depend": null,
+		"mandatory": false,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Nro Cuenta Beneficiario": {
+		"id": null,
+		"name": "Nro Cuenta Beneficiario",
+		"table": null,
+		"regex": "^[0-9]+$",
+		"depend": null,
+		"mandatory": false,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Tipo Banco": {
+		"id": null,
+		"name": "Tipo Banco",
+		"table": null,
+		"regex": "^[0-9]+$",
+		"depend": null,
+		"mandatory": true,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Banco Intermediario": {
+		"id": null,
+		"name": "Banco Intermediario",
+		"table": null,
+		"regex": "^[0-9]+$",
+		"depend": null,
+		"mandatory": false,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Swift": {
+		"id": null,
+		"name": "Swift",
+		"table": null,
+		"regex": "^[0-9]+$",
+		"depend": null,
+		"mandatory": false,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Aba": {
+		"id": null,
+		"name": "Aba",
+		"table": null,
+		"regex": "^[0-9]+$",
+		"depend": null,
+		"mandatory": false,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Direccion": {
+		"id": null,
+		"name": "Direccion",
+		"table": null,
+		"regex": null,
+		"depend": null,
+		"mandatory": false,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Banco Beneficiario": {
+		"id": null,
+		"name": "Banco Beneficiario",
+		"table": null,
+		"regex": "^[0-9]+$",
+		"depend": null,
+		"mandatory": false,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Swift Beneficiario": {
+		"id": null,
+		"name": "Swift Beneficiario",
+		"table": null,
+		"regex": null,
+		"depend": null,
+		"mandatory": false,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Direccion Beneficiario": {
+		"id": null,
+		"name": "Direccion Beneficiario",
+		"table": null,
+		"regex": null,
+		"depend": null,
+		"mandatory": false,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Cuenta": {
+		"id": null,
+		"name": "Cuenta",
+		"table": null,
+		"regex": "^[0-9]+$",
+		"depend": null,
+		"mandatory": false,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	}
+}

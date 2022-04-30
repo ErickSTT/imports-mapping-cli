@@ -1,0 +1,34 @@
+{
+	"Codigo": {
+		"name": "Codigo",
+		"regex": null,
+		"depend": null,
+		"mandatory": true,
+		"updateKey": true,
+		"msgError": "Error de validacion"
+	},
+	"Nombre": {
+		"name": "Nombre",
+		"regex": null,
+		"depend": null,
+		"mandatory": true,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Fecha de Vencimiento": {
+		"name": "Fecha de Vencimiento",
+		"regex": "^([0-2][0-9]|3[0-1]|[1-9])/([1-9]|0[0-9]|1[0-2])/(2\\d{3})$",
+		"depend": null,
+		"mandatory": false,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Nombre Alterno": {
+		"name": "Nombre Alterno",
+		"regex": null,
+		"depend": null,
+		"mandatory": false,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	}
+}

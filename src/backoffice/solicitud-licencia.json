@@ -1,0 +1,106 @@
+{
+	"Nomina": {
+		"name": "Nomina",
+		"regex": "^[0-9]+$",
+		"depend": null,
+		"mandatory": true,
+		"updateKey": true,
+		"msgError": "Error de validacion"
+	},
+	"Empleado": {
+		"name": "Empleado",
+		"regex": "^[0-9]+$",
+		"depend": null,
+		"mandatory": true,
+		"updateKey": true,
+		"msgError": "Error de validacion"
+	},
+	"Pais": {
+		"name": "Pais",
+		"regex": "^[0-9]+$",
+		"depend": null,
+		"mandatory": false,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Jornada": {
+		"name": "Jornada",
+		"regex": "^[0-9]+$",
+		"depend": null,
+		"mandatory": false,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Entidad": {
+		"name": "Entidad",
+		"regex": null,
+		"depend": null,
+		"mandatory": true,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Tipo Licencia": {
+		"name": "Tipo Licencia",
+		"regex": null,
+		"depend": null,
+		"mandatory": true,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Tipo Licencia Especial": {
+		"name": "Tipo Licencia Especial",
+		"regex": null,
+		"depend": null,
+		"mandatory": false,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Fecha Inicio": {
+		"name": "Fecha Inicio",
+		"regex": "^([0-2][0-9]|3[0-1]|[0-9])(\\/|-)(0[1-9]|1[0-2]|[0-9])\\2(\\d{4})$",
+		"depend": null,
+		"mandatory": true,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Dias": {
+		"name": "Dias",
+		"regex": "^[0-9]+$",
+		"depend": null,
+		"mandatory": true,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Aprobada": {
+		"name": "Aprobada",
+		"regex": null,
+		"depend": null,
+		"mandatory": false,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Rechazada": {
+		"name": "Rechazada",
+		"regex": null,
+		"depend": null,
+		"mandatory": false,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Observaciones": {
+		"name": "Observaciones",
+		"regex": null,
+		"depend": null,
+		"mandatory": false,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Aprobador": {
+		"name": "Aprobador",
+		"regex": null,
+		"depend": null,
+		"mandatory": false,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	}
+}

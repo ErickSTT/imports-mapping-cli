@@ -1,0 +1,122 @@
+{
+	"Nomina": {
+		"name": "Nomina",
+		"regex": "^[0-9]+$",
+		"depend": null,
+		"mandatory": true,
+		"updateKey": true,
+		"msgError": "Error de validacion"
+	},
+	"Empleado": {
+		"name": "Empleado",
+		"regex": "^[0-9]+$",
+		"depend": null,
+		"mandatory": true,
+		"updateKey": true,
+		"msgError": "Error de validacion"
+	},
+	"Concepto": {
+		"name": "Concepto",
+		"regex": "^[0-9]+$",
+		"depend": null,
+		"mandatory": true,
+		"updateKey": true,
+		"msgError": "Error de validacion"
+	},
+	"Centro de Costo": {
+		"name": "Centro de Costo",
+		"regex": null,
+		"depend": null,
+		"mandatory": false,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Cuenta Debito": {
+		"name": "Cuenta Debito",
+		"regex": null,
+		"depend": null,
+		"mandatory": false,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Cuenta Credito": {
+		"name": "Cuenta Credito",
+		"regex": null,
+		"depend": null,
+		"mandatory": false,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Moneda": {
+		"name": "Moneda",
+		"regex": "^[0-9]+$",
+		"depend": null,
+		"mandatory": true,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Frecuencia de Pago": {
+		"name": "Frecuencia de Pago",
+		"regex": "^[0-9]+$",
+		"depend": null,
+		"mandatory": true,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Fecha Inicial": {
+		"name": "Fecha Inicial",
+		"regex": "^([0-2][0-9]|3[0-1]|[0-9])(\\/|-)(0[1-9]|1[0-2]|[0-9])\\2(\\d{4})$",
+		"depend": null,
+		"mandatory": true,
+		"updateKey": true,
+		"msgError": "Error de validacion"
+	},
+	"Fecha Final": {
+		"name": "Fecha Final",
+		"regex": "^([0-2][0-9]|3[0-1]|[0-9])(\\/|-)(0[1-9]|1[0-2]|[0-9])\\2(\\d{4})$",
+		"depend": null,
+		"mandatory": true,
+		"updateKey": true,
+		"msgError": "Error de validacion"
+	},
+	"Porcentaje": {
+		"name": "Porcentaje",
+		"regex": null,
+		"depend": null,
+		"mandatory": false,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Cantidad": {
+		"name": "Cantidad",
+		"regex": "^[0-9]+$",
+		"depend": null,
+		"mandatory": false,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Monto": {
+		"name": "Monto",
+		"regex": null,
+		"depend": null,
+		"mandatory": false,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Proceso": {
+		"name": "Proceso",
+		"regex": null,
+		"depend": null,
+		"mandatory": false,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Comentarios": {
+		"name": "Comentarios",
+		"regex": null,
+		"depend": null,
+		"mandatory": false,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	}
+}

@@ -1,0 +1,122 @@
+{
+	"Nomina": {
+		"name": "Nomina",
+		"regex": "^[0-9]+$",
+		"depend": null,
+		"mandatory": true,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Maestro De Concepto": {
+		"name": "Maestro De Concepto",
+		"regex": "^[0-9]+$",
+		"depend": null,
+		"mandatory": true,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Pais": {
+		"name": "Pais",
+		"regex": "^[0-9]+$",
+		"depend": null,
+		"mandatory": true,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Nombre Alterno": {
+		"name": "Nombre Alterno",
+		"regex": null,
+		"depend": null,
+		"mandatory": false,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"ID Codigo Alterno": {
+		"name": "ID Codigo Alterno",
+		"regex": null,
+		"depend": null,
+		"mandatory": false,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Cuenta Contable Debito": {
+		"name": "Cuenta Contable Debito",
+		"regex": null,
+		"depend": null,
+		"mandatory": false,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Cuenta Contable Credito": {
+		"name": "Cuenta Contable Credito",
+		"regex": null,
+		"depend": null,
+		"mandatory": false,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Cuenta Contable Debito Externa": {
+		"name": "Cuenta Contable Debito Externa",
+		"regex": null,
+		"depend": null,
+		"mandatory": false,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Cuenta Contable Credito Externa": {
+		"name": "Cuenta Contable Credito Externa",
+		"regex": null,
+		"depend": null,
+		"mandatory": false,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Porcentaje": {
+		"name": "Porcentaje",
+		"regex": "^[0-9]+$",
+		"depend": null,
+		"mandatory": false,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Formato": {
+		"name": "Formato",
+		"regex": null,
+		"depend": null,
+		"mandatory": false,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Maximo": {
+		"name": "Maximo",
+		"regex": null,
+		"depend": null,
+		"mandatory": false,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Periodos Max": {
+		"name": "Periodos Max",
+		"regex": null,
+		"depend": null,
+		"mandatory": false,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Codigo Numero": {
+		"name": "Codigo Numero",
+		"regex": "^[tTFf]$",
+		"depend": null,
+		"mandatory": false,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Historico": {
+		"name": "Historico",
+		"regex": "^[tTFf]$",
+		"depend": null,
+		"mandatory": false,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	}
+}

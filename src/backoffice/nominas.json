@@ -1,0 +1,122 @@
+{
+	"Empresa": {
+		"name": "Empresa",
+		"regex": "^[0-9]+$",
+		"depend": null,
+		"mandatory": true,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Codigo": {
+		"name": "Codigo",
+		"regex": null,
+		"depend": null,
+		"mandatory": true,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Nombre": {
+		"name": "Nombre",
+		"regex": null,
+		"depend": null,
+		"mandatory": false,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Frecuencia": {
+		"name": "Frecuencia",
+		"regex": "^[0-9]+$",
+		"depend": null,
+		"mandatory": true,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Ultima Nomina Pagada": {
+		"name": "Ultima Nomina Pagada",
+		"regex": "^([0-2][0-9]|3[0-1]|[1-9])/([1-9]|0[0-9]|1[0-2])/(2\\d{3})$",
+		"depend": null,
+		"mandatory": false,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Moneda de Pago": {
+		"name": "Moneda de Pago",
+		"regex": "^[0-9]+$",
+		"depend": null,
+		"mandatory": true,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Moneda extranjera": {
+		"name": "Moneda extranjera",
+		"regex": "^[0-9]+$",
+		"depend": null,
+		"mandatory": false,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Lista Dias No Habiles": {
+		"name": "Lista Dias No Habiles",
+		"regex": null,
+		"depend": null,
+		"mandatory": true,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Id de Sueldo": {
+		"name": "Id de Sueldo",
+		"regex": null,
+		"depend": null,
+		"mandatory": false,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Tipo codigo Trabajador": {
+		"name": "Tipo codigo Trabajador",
+		"regex": null,
+		"depend": null,
+		"mandatory": true,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Tipo de Servicio": {
+		"name": "Tipo de Servicio",
+		"regex": null,
+		"depend": null,
+		"mandatory": false,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Codigo patronal": {
+		"name": "Codigo patronal",
+		"regex": null,
+		"depend": null,
+		"mandatory": false,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Configuracion Contable": {
+		"name": "Configuracion Contable",
+		"regex": null,
+		"depend": null,
+		"mandatory": false,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"STT NM Subsidiaria": {
+		"name": "STT NM Subsidiaria",
+		"regex": null,
+		"depend": null,
+		"mandatory": false,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"STT NM Ubicacion": {
+		"name": "STT NM Ubicacion",
+		"regex": null,
+		"depend": null,
+		"mandatory": false,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	}
+}

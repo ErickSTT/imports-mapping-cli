@@ -3,21 +3,9 @@ import { IImportsMappings } from '../interfaces/imports-mappings.interface'
 
 export const importsMappingsṔrompts: inquirer.QuestionCollection<IImportsMappings>[] = [
 	{
-		name: 'id',
-		type: 'input',
-		message: 'Id:',
-		suffix: 'default null',
-	},
-	{
 		name: 'name',
 		type: 'input',
 		message: 'Name:',
-	},
-	{
-		name: 'table',
-		type: 'input',
-		message: 'Table:',
-		suffix: 'default null',
 	},
 	{
 		name: 'regex',
@@ -39,9 +27,10 @@ export const importsMappingsṔrompts: inquirer.QuestionCollection<IImportsMappi
 	},
 	{
 		name: 'updateKey',
-		type: 'input',
+		type: 'list',
 		message: 'UpdateKey:',
 		default: false,
+		choices: ['true', 'false'],
 	},
 	{
 		name: 'msgError',

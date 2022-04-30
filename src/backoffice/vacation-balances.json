@@ -1,0 +1,82 @@
+{
+	"Nomina": {
+		"name": "Nomina",
+		"regex": "^[0-9]+$",
+		"depend": null,
+		"mandatory": true,
+		"updateKey": true,
+		"msgError": "Error de validacion"
+	},
+	"Empleado": {
+		"name": "Empleado",
+		"regex": null,
+		"depend": null,
+		"mandatory": true,
+		"updateKey": true,
+		"msgError": "Error de validacion"
+	},
+	"Anio Causado": {
+		"name": "Anio Causado",
+		"regex": "^[0-9]{4}$",
+		"depend": null,
+		"mandatory": true,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Dias Normales Acumulados": {
+		"name": "Dias Normales Acumulados",
+		"regex": "^[0-9]+$",
+		"depend": null,
+		"mandatory": true,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Dias Normales Pendientes": {
+		"name": "Dias Normales Pendientes",
+		"regex": "^[0-9]+$",
+		"depend": null,
+		"mandatory": true,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Dias Bonos Acumulados": {
+		"name": "Dias Bonos Acumulados",
+		"regex": "^[0-9]+$",
+		"depend": null,
+		"mandatory": false,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Dias Bonos Pendientes": {
+		"name": "Dias Bonos Pendientes",
+		"regex": "^[0-9]+$",
+		"depend": null,
+		"mandatory": false,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Dias Liquidacion Acumulados": {
+		"name": "Dias Liquidacion Acumulados",
+		"regex": "^[0-9]+$",
+		"depend": null,
+		"mandatory": true,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Dias Liquidacion Pendientes": {
+		"name": "Dias Liquidacion Pendientes",
+		"regex": "^[0-9]+$",
+		"depend": null,
+		"mandatory": true,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	},
+	"Periodo Cerrado": {
+		"name": "Periodo Cerrado",
+		"regex": "^[tTFf]{1}$",
+		"depend": null,
+		"mandatory": false,
+		"updateKey": false,
+		"msgError": "Error de validacion"
+	}
+}
